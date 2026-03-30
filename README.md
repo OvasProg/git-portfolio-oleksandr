@@ -17,3 +17,8 @@ This project uses Maven for build automation. Ensure you have Java 17+ and Maven
 * Feature branching (`feature/`, `bugfix/`)
 * Meaningful, imperative commit messages
 * Three-way merges
+* Intentional merge conflict resolution
+
+## Conflict Resolution Documentation
+* **Conflicting File:** `src/main/java/org/example/Main.java`
+* **Resolution:** The `main` branch updated the welcome message to include a version number ("v1.0"), while the `feature/enhanced-welcome` branch updated it to say "Advanced Java Calculator". I resolved the conflict by combining both changes into a single print statement: `System.out.println("Welcome to the Advanced Java Calculator App v1.0!");` rather than just accepting one side.
