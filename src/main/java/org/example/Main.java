@@ -2,7 +2,7 @@ package org.example;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Welcome to the Calculator!");
+        System.out.println("Welcome to the Advanced Java Calculator!");
 
         InputParser parser = new InputParser();
         Calculator calculator = new BasicCalculator();
